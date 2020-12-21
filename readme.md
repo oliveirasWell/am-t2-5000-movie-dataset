@@ -11,6 +11,7 @@ This project is a notebook about the [Credit Card Fraud Dataset](https://www.kag
 
 ## Install environment
 
+- Extract the creditcard.csv.zip at input/creditcardfraud
 - Install all requirements and active the conda environment.
 
 ```shellscript

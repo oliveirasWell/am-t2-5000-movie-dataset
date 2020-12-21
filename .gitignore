@@ -1,0 +1,4 @@
+.idea
+.ipynb_checkpoints
+./input/creditcardfraud/creditcard.csv
+/input/creditcardfraud/creditcard.csv
