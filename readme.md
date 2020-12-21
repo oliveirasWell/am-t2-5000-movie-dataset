@@ -1,4 +1,4 @@
-# Machine Learning with KNN, MLP and RandomForest for Credit Card Fraud Detection
+# Machine Learning with KNN, MLP and RandomForest for Credit Card Fraud Detection - Jupyter Notebook Approach
 
 This project is a notebook about the [Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) and propose three classification models using, respectively, K-Nearest Neighbors, Multilayer perceptron and Random forest. As an unbalanced dataset, was proposed an undersampling solution to avoid overfitting and other side effects.  All models used grid search to estimate hyperparameters, and the results (accuracy, precision, recall) are described at the end of this script.
 
