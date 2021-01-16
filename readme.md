@@ -4,7 +4,7 @@ This project is a notebook about the [TMDB 5000 Movie Dataset](https://www.kaggl
 
 This dataset includes a list of 5000 movies with information of name, genre and other movie information extracted from the imdb. 
 
-The dataset tables:
+The dataset common:
 
 ```
 homepage
@@ -60,9 +60,9 @@ numcriticfor_reviews
 numuserfor_reviews
 ```
 
-In this jupyter notebook we execute some experiments and compare with silhouette_avg metric.
+First we create new columns and refactor some others, to use PCA to create an 2-dimensional dataset, which is possible to plot and visualize the clustering separately.
 
-# Get started
+In this jupyter notebook we execute some experiments and compare with silhouette_avg metric.
 
 ## Requirements
 
