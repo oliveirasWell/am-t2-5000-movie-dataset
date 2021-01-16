@@ -1,6 +1,66 @@
-# Machine Learning with KNN, MLP and RandomForest for Credit Card Fraud Detection - Jupyter Notebook Approach
+Clustering with K-Means, Mini Batch K-Means and DBSCAN
 
-This project is a notebook about the [Credit Card Fraud Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) and propose three classification models using, respectively, K-Nearest Neighbors, Multilayer perceptron and Random forest. As an unbalanced dataset, was proposed an undersampling solution to avoid overfitting and other side effects.  All models used grid search to estimate hyperparameters, and the results (accuracy, precision, recall) are described at the end of this script.
+This project is a notebook about the [TMDB 5000 Movie Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata) and propose three clustering models using, respectively, K-Means, Mini Batch K-Means and DBSCAN.
+
+This dataset includes a list of 5000 movies with information of name, genre and other movie information extracted from the imdb. 
+
+The dataset tables:
+
+```
+homepage
+
+id
+
+original_title
+
+overview
+
+popularity
+
+production_companies
+
+production_countries
+
+release_date
+
+spoken_languages
+
+status
+
+tagline
+
+vote_average
+
+Lost columns:
+
+actor1facebook_likes
+
+actor2facebook_likes
+
+actor3facebook_likes
+
+aspect_ratio
+
+casttotalfacebook_likes
+
+color
+
+content_rating
+
+directorfacebooklikes
+
+facenumberinposter
+
+moviefacebooklikes
+
+movieimdblink
+
+numcriticfor_reviews
+
+numuserfor_reviews
+```
+
+In this jupyter notebook we execute some experiments and compare with silhouette_avg metric.
 
 # Get started
 
@@ -11,12 +71,11 @@ This project is a notebook about the [Credit Card Fraud Dataset](https://www.kag
 
 ## Install environment
 
-- Extract the creditcard.csv.zip at input/creditcardfraud
 - Install all requirements and active the conda environment.
 
 ```shellscript
 conda env create -f environment.yml
-conda activate am-t1-credit-card-fraud-detection
+conda activate am-t1-credit-card-fraud-detection //name of my last project
 ```
 
 ## Running

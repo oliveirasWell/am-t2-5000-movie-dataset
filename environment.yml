@@ -1,4 +1,4 @@
-name: am-t1-credit-card-fraud-detection-2
+name: am-t1-credit-card-fraud-detection
 channels:
   - conda-forge
   - defaults
@@ -134,3 +134,6 @@ dependencies:
   - zipp=3.4.0=py_0
   - zlib=1.2.11=h516909a_1010
   - zstd=1.4.5=h6597ccf_2
+  - pip:
+    - flat-table==1.1.1
+prefix: /home/oliveiraswell/bin/anaconda3/envs/am-t1-credit-card-fraud-detection
