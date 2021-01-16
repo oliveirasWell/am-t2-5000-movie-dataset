@@ -1,4 +1,4 @@
-Clustering with K-Means, Mini Batch K-Means and DBSCAN
+# Clustering with K-Means, Mini Batch K-Means and DBSCAN
 
 This project is a notebook about the [TMDB 5000 Movie Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata) and propose three clustering models using, respectively, K-Means, Mini Batch K-Means and DBSCAN.
 
